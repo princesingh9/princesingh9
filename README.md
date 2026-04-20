@@ -1,4 +1,4 @@
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=prince-kumar&label=Profile%20views&color=00ff00&style=flat" alt="anindya-mukhopadhyay" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=prince-kumar&label=Profile%20views&color=00ff00&style=flat" alt="prince-kumar" /> </p>
  <p align="center">
   <img id="github" src=https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDdza3R1bjJ3a3hpdGVyb3hqYXM0MzB1N2lqeTJseDdkZGY5OXk1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4OAxDXv4RdUeg38JYi/giphy.gif width="600">
  
