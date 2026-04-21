@@ -4,6 +4,15 @@
   <h3>🧠 Computer Science Engineering Student | Full-Stack Web Developer | AI Enthusiast 🚀</h3>
   
   <p align="center">
+    <a href="https://www.linkedin.com/in/prince-kumar-a15aba387/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://www.instagram.com/prince.singh.21/" target="_blank">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+  </p>
+
+  <p align="center">
     I am a passionate computer science engineering student exploring the world of modern web development, intelligent AI features, and backend architectures. Always building, always learning.
   </p>
 </div>
@@ -46,12 +55,50 @@
 
 <br/>
 
-### 🌌 3D Contributions (Static Preview)
-> *To get an interactive rotating 3D calendar of your commits, you can set up the [GitHub Profile 3D Contrib Action](https://github.com/yoshi389111/github-profile-3d-contrib). Below is a dynamic 2D heatmap proxy representing your commit history in real time!*
+### 🌌 3D Contributions Calendar
 
 <div align="center">
-  <img src="https://ghchart.rshah.org/8A2BE2/princesingh9" alt="Prince's Contribution Chart" />
+  <!-- This image will appear once you run the GitHub Action to generate it -->
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="Prince's 3D Contribution Chart" width="100%" />
 </div>
+
+<br/>
+
+> **To make the 3D Graph appear**, you must configure a scheduled GitHub Action in your profile repository.
+> 1. In your `princesingh9/princesingh9` repository, create a folder structure: `.github/workflows/`
+> 2. Inside that, create a file named `profile-3d.yml`.
+> 3. Paste the following Action Code into that file and commit it. The 3D graph will generate automatically every day!
+> 
+> <details>
+> <summary>Click here for the GitHub Action Code to copy</summary>
+> 
+> ```yaml
+> name: GitHub-Profile-3D-Contrib
+> 
+> on:
+>   schedule: # 03:00 JST == 18:00 UTC
+>     - cron: "0 18 * * *"
+>   workflow_dispatch:
+> 
+> jobs:
+>   build:
+>     runs-on: ubuntu-latest
+>     name: generate-github-profile-3d-contrib
+>     steps:
+>       - uses: actions/checkout@v3
+>       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+>         env:
+>           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+>           USERNAME: ${{ github.repository_owner }}
+>       - name: Commit & Push
+>         run: |
+>           git config user.name github-actions
+>           git config user.email github-actions@github.com
+>           git add -A .
+>           git commit -m "generated 3d contribution graph"
+>           git push
+> ```
+> </details>
 
 ---
 
@@ -59,8 +106,7 @@
 - 🔭 Currently exploring: **Advanced Full-Stack Engineering and Machine Learning integration (AI).**
 - 🌱 Currently learning: **Deeper concepts of modern Backend engineering & Python AI APIs.**
 - 👯 Looking to collaborate on: **Open source React & Python projects.**
-- 💬 Ask me about: **React, C++, Python logic, or setting up Firebase databases!**
-- 📫 How to reach me: *Add your email or LinkedIn here*
+- 📫 Connect with me: [LinkedIn](https://www.linkedin.com/in/prince-kumar-a15aba387/) | [Instagram](https://www.instagram.com/prince.singh.21/)
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Inspirational Quote" />
